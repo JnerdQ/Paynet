@@ -4,11 +4,6 @@ import { FaMoneyBillWave } from "react-icons/fa";
 import { MdStore } from "react-icons/md";
 import PaymentIcon from "../assets/payment.svg?react";
 
-
-
-
-
-
 function MetodoPago() {
   const [metodo, setMetodo] = useState("PSE");
 
@@ -44,10 +39,10 @@ function MetodoPago() {
       id: "Datafono",
       label: "Datáfono",
       icon: (
-    <div className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-100">
-      <PaymentIcon className="w-6 h-6 text-blue-400" />
-    </div>
-  ),
+        <div className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-100">
+          <PaymentIcon className="w-6 h-6 text-blue-400" />
+        </div>
+      ),
     },
   ];
 
@@ -108,10 +103,19 @@ function MetodoPago() {
 
       {/* Botones */}
       <div className="flex justify-end gap-4 mt-8">
-        <button className="px-8 py-2 border border-red-400 text-red-500 rounded-lg hover:bg-red-50 font-medium">
+        <button className="px-8 py-2 border border-red-400 text-red-500 rounded-lg hover:bg-red-50 font-medium"
+           onClick={(e) => {
+            alert("Cancelar Pago");
+            e.preventDefault();
+          }}>
           Cancelar
         </button>
-        <button className="px-8 py-2 bg-red-500 text-white rounded-lg hover:bg-red-600 font-medium">
+        <button
+          className="px-8 py-2 bg-red-500 text-white rounded-lg hover:bg-red-600 font-medium"
+          onClick={(e) => {
+            alert("Generar reporte de pago");
+            e.preventDefault();
+          }}>
           Generar
         </button>
       </div>

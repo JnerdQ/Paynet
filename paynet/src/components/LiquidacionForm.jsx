@@ -83,6 +83,7 @@ function LiquidacionForm() {
           <button
             type="submit"
             className="bg-gray-300 text-gray-600 px-6 py-2 rounded-md hover:bg-gray-400"
+            onClick={(e) => { alert('Consultar Liquidacion'); e.preventDefault(); }}
           >
             Continuar
           </button>
