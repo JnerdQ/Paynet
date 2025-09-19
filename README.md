@@ -11,8 +11,8 @@ Sistema web para la gestión y liquidación de pines de vehículos.
 
 ```bash
 # 1. Clonar el repositorio
-git clone https://github.com/JnerdQ/Paynet.git
-cd paynet
+git clone https://github.com/JnerdQ/paynet-clone.git
+cd paynet-clone
 
 # 2. Instalar dependencias
 npm install
@@ -26,7 +26,7 @@ El proyecto estará disponible en: `http://localhost:5173`
 ## 🏗️ Estructura del Proyecto
 
 ```text
-paynet/
+paynet-clone/
 ├── public/              # Archivos estáticos
 │   ├── logo.png
 │   ├── payment.png
