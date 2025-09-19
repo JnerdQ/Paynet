@@ -6,6 +6,9 @@ import MetodoPago from "./MetodoPago";
 
 
 
+
+
+
 function FormSection({ children }) {
   const isPagoComponent = children.type === MetodoPago;
 

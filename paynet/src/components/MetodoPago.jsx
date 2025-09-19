@@ -7,6 +7,8 @@ import PaymentIcon from "../assets/payment.svg?react";
 
 
 
+
+
 function MetodoPago() {
   const [metodo, setMetodo] = useState("PSE");
 
