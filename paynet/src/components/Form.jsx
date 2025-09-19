@@ -55,7 +55,7 @@ function MainSection() {
         <hr className="border-t-2 border-gray-300 my-2" />
 
         {/* Seccion de los formularios */}
-        <section className="justify-center items-center mx-110 p-5">
+        <section className="justify-center items-center mx-96 p-5">
           {/* Contenedor de los subtitulos con sus formularios */}
           <Form title={"Información General"}>
             <GeneralForm />
